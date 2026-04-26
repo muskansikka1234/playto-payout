@@ -196,13 +196,13 @@ After running `python manage.py seed`, you get:
 
 ---
 
-## Deployment (Railway)
+## Deployment (Render)
 
 ```bash
-# Backend: add a Railway service pointing to /backend
-# Set env vars in Railway dashboard
+# Backend: add a render web service pointing to /backend
+# Set env vars in render dashboard
 # Add PostgreSQL and Redis plugins
 
-# Frontend: deploy /frontend to Vercel or Railway static
-# Set REACT_APP_API_URL=https://your-backend.railway.app/api/v1
+# Frontend: deploy /frontend to render
+# Set REACT_APP_API_URL=https://your-backend.render.app/api/v1
 ```
